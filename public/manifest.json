@@ -1,0 +1,57 @@
+{
+  "name": "سفرة - منصة الطبخ والوجبات المنزلية في ليبيا",
+  "short_name": "سفرة ليبيا",
+  "description": "أول منصة تواصل اجتماعي وسوق للأكل المنزلي والوجبات الشعبية في ليبيا مع التوصيل الحي ومحفظة الضمان Escrow",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf7f2",
+  "theme_color": "#ea580c",
+  "dir": "rtl",
+  "lang": "ar-LY",
+  "categories": ["food", "social", "shopping"],
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "الرئيسية",
+      "short_name": "الرئيسية",
+      "description": "تصفح أحدث الوجبات المنزلية من الشيفات الموثقين",
+      "url": "/?tab=home",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "استكشف المأكولات",
+      "short_name": "استكشف",
+      "description": "بحث وتصفح الوجبات حسب المدن الليبية",
+      "url": "/?tab=explore",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "طلبياتي",
+      "short_name": "الطلبات",
+      "description": "متابعة حالة الطلبات ونظام الضمان 48 ساعة",
+      "url": "/?tab=orders",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

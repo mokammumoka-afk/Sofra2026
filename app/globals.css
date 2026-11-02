@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-cairo: 'Cairo', system-ui, sans-serif;
+  --font-ibm: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-cairo);
+  background-color: #faf7f2;
+  color: #1c1917;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar for Arabic Feed & Modals */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5ede2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e2d1c3;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cba88c;
+}
+
+/* Glassmorphic cards for food display */
+.food-card-glass {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(231, 222, 210, 0.8);
+}
+
+.food-gradient-bg {
+  background: linear-gradient(135deg, #fffcf8 0%, #f7f0e6 100%);
+}
+
+/* Hide Next.js Dev Indicator floating badge ("N" logo) */
+nextjs-portal,
+[data-nextjs-toast],
+[data-next-badge],
+div[class*="nextjs-toast"],
+div[class*="nextjs-portal"] {
+  display: none !important;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "سفرة - منصة الطبخ الاجتماعية في ليبيا",
+  "description": "منصة اجتماعية وسوق إلكتروني متخصص في الطبخ والأكل المنزلي في المدن الليبية مع محفظة رقمية وتوصيل حي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
